@@ -72,3 +72,13 @@ object Q2 {
 
   }
 }
+
+
+object Q3 {
+  
+  def main (args:Array[String]){
+   
+    println("Toatal salary is=" + sal(40,30))
+  }
+  
+  def sal(hr1:Double,hr2:Double):Double=(hr1*250+hr2*85)-(hr1*250+hr2*85)*0.12
